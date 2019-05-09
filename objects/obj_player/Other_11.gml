@@ -8,7 +8,7 @@ if(animation_hit_frame(1)){
 	var _life = 3;
 	var _damage = 1;
 	var _knockback = 8;
-	var _hitbox = create_hitbox(spr_sword_hitbox,x,y,_angle,_life,[obj_enemy,obj_grass],_damage,_knockback);
+	var _hitbox = create_hitbox(spr_sword_hitbox,x,y,_angle,_life,[obj_enemy,obj_grass,obj_bush],_damage,_knockback);
 	
 	audio_play_sound(a_swipe, 8, false);
 	

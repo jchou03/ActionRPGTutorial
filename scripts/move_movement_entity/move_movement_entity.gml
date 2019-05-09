@@ -3,7 +3,7 @@ var _bounce = argument0;
 
 // Apply friction when sliding on walls
 if place_meeting(x+lengthdir_x(speed_, direction_), y+lengthdir_y(speed_, direction_), collision_object_) and !_bounce {
-//	speed_ = approach(speed_, 0, friction_/2);
+	speed_ = approach(speed_, 0, friction_/2);
 }
 
 var _x_speed = lengthdir_x(speed_, direction_);

@@ -1,2 +1,2 @@
 
-room_goto(r_world);
+room_goto(r_title);
