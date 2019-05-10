@@ -1,3 +1,5 @@
+var _last_index = index_;
+
 if(obj_input.up_pressed_){
 	index_ = max(--index_, 0);
 }
@@ -5,18 +7,26 @@ if(obj_input.down_pressed_){
 	index_ = min(++index_,option_length_-1);
 }
 
+if(_last_index != index_){
+	audio_play_sound(a_menu_move,1,false);
+}
+
 if(obj_input.action_one_pressed_){
 	switch(index_){
 		case options.continue_game:
-			show_debug_message("Continue");
+			audio_play_sound(a_menu_select,1,false);
+			ini_load("save_data.ini");
 			break;
 		case options.new_game:
+			audio_play_sound(a_menu_select,1,false);
 			room_goto(r_world);
 			break;
 		case options.credits:
+			audio_play_sound(a_menu_select,1,false);
 			show_debug_message("Credits");
 			break;
 		case options.quit:
+			audio_play_sound(a_menu_select,1,false);
 			game_end();
 			break;
 	}
