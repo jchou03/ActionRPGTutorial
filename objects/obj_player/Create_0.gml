@@ -3,6 +3,7 @@
 initialize_movement_entity(0.5,1,obj_solid);
 initialize_hurtbox_entity();
 image_speed = 0;
+alarm[1] = global.one_second;
 acceleration_ = 0.5;
 max_speed_ = 1.5;
 direction_facing_ = dir.right;

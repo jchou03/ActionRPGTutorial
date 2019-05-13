@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2ca09a3c-0308-4819-a6e0-363c2e0ab02d",
+            "Value": {
+                "id": "54a836d0-816c-4857-82b7-60ef72f10251",
+                "resourcePath": "scripts\\ini_write_inventory\\ini_write_inventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3181fb70-3b24-4d25-b1a4-e6fe72989e45",
             "Value": {
                 "id": "09e55d2a-5c29-4b5b-86fb-d20e4f14c27d",
@@ -644,6 +652,14 @@
                 "id": "bf19ac28-38e6-41c7-af35-17e3f68cdd3c",
                 "resourcePath": "sprites\\spr_porcupine_attack\\spr_porcupine_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8455f04d-1e1f-4a94-a446-e8158dbe5956",
+            "Value": {
+                "id": "ea8c5608-1b96-4cf4-bc84-1cc51dbd609d",
+                "resourcePath": "scripts\\ini_read_inventory\\ini_read_inventory.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1339,7 +1355,9 @@
         "45803ba1-f7c5-46ae-97fd-880c11fec41f",
         "04aa82bb-6cad-48f5-a7e1-29c11ae5db8d",
         "492e550b-1fa6-4cdf-81ce-d4c058648094",
-        "d8ba7c38-bf1b-4674-90b0-127142bec9e8"
+        "d8ba7c38-bf1b-4674-90b0-127142bec9e8",
+        "2ca09a3c-0308-4819-a6e0-363c2e0ab02d",
+        "8455f04d-1e1f-4a94-a446-e8158dbe5956"
     ],
     "tutorial": ""
 }
