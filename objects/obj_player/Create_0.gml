@@ -10,6 +10,8 @@ direction_facing_ = dir.right;
 roll_direction_ = 0;
 roll_speed_ = 2;
 
+found_item_sprite_ = noone;
+
 
 
 enum player{
@@ -64,3 +66,9 @@ sprite_[player.bomb,dir.up] = spr_player_run_up;
 sprite_[player.bomb,dir.left] = spr_player_run_right;
 sprite_[player.bomb,dir.down] = spr_player_run_down;
 
+//Found item lookup table
+//Hit lookup table
+sprite_[player.found_item,dir.right] = spr_player_found_item;
+sprite_[player.found_item,dir.up] = spr_player_found_item;
+sprite_[player.found_item,dir.left] = spr_player_found_item;
+sprite_[player.found_item,dir.down] = spr_player_found_item;

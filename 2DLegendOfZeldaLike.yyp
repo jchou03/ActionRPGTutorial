@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "49ccf409-cf83-4fb8-97b2-fc79547109d2",
+            "Value": {
+                "id": "aed25f28-e2d9-4633-b927-0c89e1cef2db",
+                "resourcePath": "objects\\obj_tree\\obj_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a94aa2e-0723-433a-8951-a9f10b2c7b59",
             "Value": {
                 "id": "6f16f39d-996e-44c7-b10f-625562ecf5a9",
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "743ff28d-fa79-430c-bf8b-7d132c1e4e6f",
                 "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65f2cb92-317c-4aed-bb65-ce48e39f1db5",
+            "Value": {
+                "id": "ac375495-1c8d-4976-9fa1-da1549feedf0",
+                "resourcePath": "sprites\\spr_tree\\spr_tree.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -671,6 +687,14 @@
             }
         },
         {
+            "Key": "837c29c0-f8a7-406e-b5c1-597c5223524f",
+            "Value": {
+                "id": "cca63898-6b5d-4340-b562-1ddedfb2e8a4",
+                "resourcePath": "objects\\obj_sword_stand\\obj_sword_stand.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83837014-1f35-460f-8281-239e40528de5",
             "Value": {
                 "id": "bf19ac28-38e6-41c7-af35-17e3f68cdd3c",
@@ -764,6 +788,14 @@
                 "id": "1da69a1c-9a50-4c06-8ad9-279f0434dfd4",
                 "resourcePath": "views\\8c297e4d-3408-4a78-a734-da3fe8b241f4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ed82dda-4ccb-4d14-a5ca-679f96aa5e3a",
+            "Value": {
+                "id": "92d2a829-fddd-462c-b379-ed94e24701a4",
+                "resourcePath": "sprites\\spr_player_found_item\\spr_player_found_item.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -991,6 +1023,14 @@
             }
         },
         {
+            "Key": "b3f2a2fc-2243-44fa-9cc6-018ba8f54598",
+            "Value": {
+                "id": "9776ce24-48be-460a-bb5f-9bba142ee017",
+                "resourcePath": "sprites\\spr_sword_stand\\spr_sword_stand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b598e63f-8895-4cbb-ae51-bd3c58749591",
             "Value": {
                 "id": "18fd9a93-9bfe-4dcd-8b65-69b605e15317",
@@ -1092,6 +1132,14 @@
                 "id": "495eb5a3-10b2-48a0-beab-be3caa063818",
                 "resourcePath": "sprites\\spr_player_roll_down\\spr_player_roll_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c95e1e8b-f390-4658-b4e1-016144749104",
+            "Value": {
+                "id": "4c31f260-be9b-4dc9-8685-169bc2cc608f",
+                "resourcePath": "scripts\\set_player_found_item\\set_player_found_item.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1287,6 +1335,14 @@
             }
         },
         {
+            "Key": "e81f448a-d2f0-4a14-85dd-a1f414330fc7",
+            "Value": {
+                "id": "89edd6a4-736e-4ec3-8b53-84f1fc033e1e",
+                "resourcePath": "sounds\\a_key_item\\a_key_item.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e930e0ef-cf19-4518-bc26-3555c546ae25",
             "Value": {
                 "id": "b05fa3d1-3b8c-4a97-812b-a1bc1a6f7250",
@@ -1332,6 +1388,14 @@
                 "id": "092bce93-3980-4530-93c7-1ed0cdc6225d",
                 "resourcePath": "sprites\\spr_hud\\spr_hud.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f7b43483-377e-4ce2-9d7a-57a40cdddc18",
+            "Value": {
+                "id": "20ced6ab-67c0-45bf-91bc-07dd18119af5",
+                "resourcePath": "objects\\obj_interactable\\obj_interactable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1400,7 +1464,8 @@
         "548ca949-0aa3-499e-9d55-986cb21aa4c6",
         "45803ba1-f7c5-46ae-97fd-880c11fec41f",
         "04aa82bb-6cad-48f5-a7e1-29c11ae5db8d",
-        "bce4502c-d52d-44d7-bb15-164125bfb1b0"
+        "bce4502c-d52d-44d7-bb15-164125bfb1b0",
+        "c95e1e8b-f390-4658-b4e1-016144749104"
     ],
     "tutorial": ""
 }
