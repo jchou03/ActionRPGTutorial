@@ -16,7 +16,7 @@ if(_x_input == 0 && _y_input == 0){
 	if(_x_input != 0) image_xscale = _x_input;
 	get_direction_facing(_input_direction);	
 	add_movement_maxspeed(_input_direction,acceleration_,max_speed_);
-	roll_direction_ = direction_facing_*90;
+	roll_direction_ = _input_direction;
 }
 
 inventory_use_item(obj_input.action_one_pressed_,global.item[0],action.one);
