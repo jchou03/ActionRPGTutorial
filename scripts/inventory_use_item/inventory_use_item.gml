@@ -19,7 +19,7 @@ if _input{
 		action_ = _action;
 		state_ = _item.action_;
 		global.player_stamina = max(global.player_stamina - _item.cost_,0);
-		image_index = 02;
+		image_index = 0;
 		alarm[1] = global.one_second;
 		
 	}
