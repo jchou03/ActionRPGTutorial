@@ -1,3 +1,5 @@
+///@arg draw the inventory and the ui
+
 if(room == r_title) exit;
 
 var _gui_height = display_get_gui_height();
